@@ -1,0 +1,4 @@
+Kafka deploy:
+- After deploying to k8s, we need to change below values:
+  + KAFKA_ZOOKEEPER_CONNECT: <ZOOKEEPER HERE> -> IP of ZooKeeper from Google cloud
+  + KAFKA_ADVERTISED_LISTENERS: localhost -> IP of Kafka from Google cloud
