@@ -5,15 +5,11 @@ metadata:
 data:
   KAFKA_BOOTSTRAP_SERVER: kafka-service:9092
   RESERVATION_DONE_TOPIC: ReservationDoneEvent
-  RESERVATION_PAYMENT_TOPIC: PaymentRequestEvent
   RESERVATION_NOTIFICATION_TOPIC: GetNotificationEvent
-  PAYMENT_REQUEST_TOPIC: PaypalRequestEvent
+  PAYMENT_REQUEST_TOPIC: PaymentRequestEvent
   PAYMENT_PAYPAL_TOPIC: PaypalRequestEvent
   PAYMENT_CREDIT_TOPIC: CreditRequestEvent
   PAYMENT_BANK_TOPIC: BankRequestEvent
-  PAYPAL_REQUEST_TOPIC: PapalRequestEvent
-  CREDIT_REQUEST_TOPIC: CreditRequestEvent
-  BANK_REQUEST_TOPIC: BankRequestEvent
   PROPERTY_REQUEST_TOPIC: ReservationDoneEvent
   ACCOUNT_REQUEST_TOPIC: GetAccountEvent
   ACCOUNT_GET_TOPIC: ResponseGetAccountEvent
