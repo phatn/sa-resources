@@ -1,0 +1,12 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: notifications-config
+data:
+
+  SERVICE_PORT: ${SERVICE_PORT}
+  #SERVICE_PORT: 8889
+ #KAFKA_BOOTSTRAP_SERVER: 34.70.147.134:9092
+  KAFKA_BOOTSTRAP_SERVER: ${KAFKA_BOOTSTRAP_SERVER}
+  KAFKA_GET_TOPIC: GET_NOTIFICATION
