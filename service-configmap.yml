@@ -23,6 +23,7 @@ data:
   DB_DATACENTER: datacenter1
   DB_PORT: "9042"
   DB_SCHEME_ACTION: create_if_not_exists
+  DB_REQUEST_TIMEOUT: 10s
   DB_RESERVATION_KEYSPACE: reservation
   DB_PAYMENT_KEYSPACE: payment
   DB_PAYPAL_KEYSPACE: paypal
