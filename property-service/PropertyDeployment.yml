@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: property-service
-          image: thiepha/property-sa:0.0.4
+          image: thiepha/property-sa:0.0.18
           imagePullPolicy: "IfNotPresent"
           ports:
             - name: http
