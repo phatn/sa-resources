@@ -52,3 +52,8 @@ data:
   NOTIFICATION_MESSAGE_SEPARATOR: "<br/>"
 
   JWT_TIMEOUT: "12960000"
+
+  REACT_APP_AUTHENTICATION_URL: http://authentication-service
+  REACT_APP_PROPERTY_URL: http://property-service
+  REACT_APP_RESERVATION_URL: http://reservation-service
+  REACT_APP_ACCOUNT_URL: http://account-service
